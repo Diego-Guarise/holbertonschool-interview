@@ -19,3 +19,4 @@ def pascal_triangle(n):
                 lista[i].append(1)
 
     return lista
+
