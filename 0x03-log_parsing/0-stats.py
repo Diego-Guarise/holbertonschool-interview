@@ -21,7 +21,7 @@ try:
             if line.split(' ')[-2] in status:
                 status[line.split(' ')[-2]] += 1
         if lines % 10 == 0:
-            print('File size: {}'.format(lines))
+            print('File size: {}'.format(size))
             for tmp in input:
                 if status[tmp] != 0:
                     print('{}: {}'.format(tmp, status[tmp]))
